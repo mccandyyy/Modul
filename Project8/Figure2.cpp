@@ -10,6 +10,7 @@ Figure2::Figure2()
 	{
 		cout << "  ***  " << endl;
 		cout << " *   *  " << endl;
+
 		cout << "*******" << endl;
 
 
