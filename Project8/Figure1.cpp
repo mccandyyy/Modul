@@ -4,13 +4,6 @@ using namespace std;
 
 Figure1::Figure1()
 {
-	void  draw();
-
-	{
-		cout << " * " << endl;
-		cout << "***" << endl;
-		cout << " * " << endl;
-	}
 }
 
 

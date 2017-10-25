@@ -7,13 +7,21 @@ using namespace std;
 {
  public:
 	 int a;
-protected:
 	 virtual void draw()=0;
 };
 
 int main()
 {
-	int l;
+	Figurka* f;
+int l;
 cout << "choose the figure 1 or 2" << endl;
 cin >> l;
+if (l == 1)
+f = new Figure1();
+else
+f = new Figure2();
+f->draw();
+system("pause");
+return 0;
 }
+
